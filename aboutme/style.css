@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 240, 240);
+  font-family: cursive;
+  color: #565151;
+}
+.outer_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+.inner_div {
+  width: 60%;
+  border-radius: 20px;
+  padding: 25px;
+  background-color: white;
+  /* border: 1px solid rgb(199, 188, 188); */
+  box-shadow: 3px 3px 10px rgb(199, 188, 188);
+}
+.emphasized_words {
+  font-weight: 600;
+  color: black;
+}
+.title {
+  color: black;
+}
