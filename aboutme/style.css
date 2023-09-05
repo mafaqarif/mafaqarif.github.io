@@ -24,6 +24,13 @@ body {
   font-weight: 600;
   color: #d78282;
 }
+.movie_links {
+  text-decoration: none;
+  color: brown;
+}
+.movie_links:hover {
+  color: rgb(86, 0, 0);
+}
 .title {
   color: black;
 }
