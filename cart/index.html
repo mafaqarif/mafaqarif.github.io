@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outer_div">
+      <div class="inner_div">
+        <header>
+          <img src="../logo.png" alt="Logo" width="70" height="50" />
+          <p>Welcome , Afaq</p>
+          <button class="btn">Logout</button>
+        </header>
+
+        <div class="content">
+          <h2 class="title">Product List</h2>
+
+          <table class="product_list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Node.js</td>
+                <td>9.99</td>
+                <td>8</td>
+                <td><img src="cart.png" alt="cart" width="25" /></td>
+              </tr>
+              <tr>
+                <td>React.js</td>
+                <td>19.99</td>
+                <td>5</td>
+                <td><img src="cart.png" alt="cart" width="25" /></td>
+              </tr>
+              <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>13</td>
+                <td><img src="cart.png" alt="cart" width="25" /></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- My shopping cart -->
+
+          <h2 class="title">Your Shopping Cart</h2>
+
+          <table class="cart_list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Node.js</td>
+                <td>9.99</td>
+                <td>9.99</td>
+                <td>
+                  <span class="controls">-</span>
+                  <input type="text" value="1" />
+                  <span class="controls">+</span>
+                </td>
+              </tr>
+              <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>290.99</td>
+                <td>
+                  <span class="controls">-</span>
+                  <input type="text" value="2" />
+                  <span class="controls">+</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="total_column" colspan="4">Total : 300.98</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Place order -->
+          <div class="order_btn">
+            <button class="btn">Place Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
