@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 240, 240);
+  /* font-family: cursive; */
+  /* color: #565151; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.outer_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+.inner_div {
+  width: 70%;
+  border-radius: 2px;
+  /* padding: 10px; */
+  background-color: white;
+  border: 1px solid #a2cbbc;
+  box-shadow: 3px 3px 10px rgb(199, 188, 188);
+}
+header {
+  padding: 0px 15px;
+  display: flex;
+  gap: 20px;
+  background-color: #a2cbbc;
+}
+a {
+  color: black;
+}
+.actions_list {
+  background-color: transparent;
+  border: none;
+}
+.content {
+  padding: 15px;
+}
+.outer_form {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0px;
+}
+.form_1,
+.form_2 {
+  flex: 1;
+}
+.form_1 div,
+.form_2 div {
+  margin-bottom: 20px;
+}
+
+.form_heading {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+label {
+  vertical-align: top;
+  display: inline-block;
+  width: 35%;
+  font-weight: 700;
+  font-size: 14px;
+}
+.outer_form input[type="text"],
+.outer_form input[type="email"],
+.outer_form textarea,
+.outer_form select {
+  width: 50%;
+  padding: 2px;
+}
+
+.checkboxs {
+  width: 100%;
+}
+
+.checkboxs_container {
+  display: inline-block;
+}
+
+.form_footer {
+  background-color: #e3e3e3;
+  text-align: center;
+  padding: 10px 2px;
+  margin: 1px;
+}
+.btn {
+  background-color: #7aa897;
+  color: white;
+  font-weight: 600;
+  font-family: cursive;
+  border: none;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+}
